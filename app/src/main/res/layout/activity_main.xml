@@ -29,7 +29,7 @@ tools:context="com.example.manasa_pt1119.calculator.MainActivity">
         android:text="7"
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
-
+        android:onClick="buttonClick"
         android:id="@+id/b7"
         />
 
@@ -38,6 +38,7 @@ tools:context="com.example.manasa_pt1119.calculator.MainActivity">
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
         android:id="@+id/b8"
+        android:onClick="buttonClick"
 
         />
 
@@ -46,12 +47,14 @@ tools:context="com.example.manasa_pt1119.calculator.MainActivity">
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
         android:id="@+id/b9"
+        android:onClick="buttonClick"
         />
     <Button
         android:text="+"
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
         android:id="@+id/badd"
+        android:onClick="buttonClick"
 
 
         />
@@ -61,27 +64,28 @@ tools:context="com.example.manasa_pt1119.calculator.MainActivity">
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
         android:id="@+id/b4"
-
+        android:onClick="buttonClick"
         />
     <Button
         android:text="5"
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
         android:id="@+id/b5"
-
+        android:onClick="buttonClick"
         />
     <Button
         android:text="6"
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
         android:id="@+id/b6"
-
+        android:onClick="buttonClick"
         />
     <Button
         android:text="-"
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
         android:id="@+id/bsub"
+        android:onClick="buttonClick"
         />
     <Button
 
@@ -89,7 +93,7 @@ tools:context="com.example.manasa_pt1119.calculator.MainActivity">
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
         android:id="@+id/b1"
-
+        android:onClick="buttonClick"
         />
     <Button
         android:text="2"
@@ -97,6 +101,7 @@ tools:context="com.example.manasa_pt1119.calculator.MainActivity">
         android:textColor="@color/colorAccent"
 
         android:id="@+id/b2"
+        android:onClick="buttonClick"
         />
     <Button
 
@@ -104,6 +109,7 @@ tools:context="com.example.manasa_pt1119.calculator.MainActivity">
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
         android:id="@+id/b3"
+        android:onClick="buttonClick"
         />
 
 
@@ -113,6 +119,7 @@ tools:context="com.example.manasa_pt1119.calculator.MainActivity">
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
         android:id="@+id/bmul"
+        android:onClick="buttonClick"
         />
     <Button
 
@@ -120,6 +127,7 @@ tools:context="com.example.manasa_pt1119.calculator.MainActivity">
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
         android:id="@+id/bdiv"
+        android:onClick="buttonClick"
         />
     <Button
 
@@ -127,6 +135,7 @@ tools:context="com.example.manasa_pt1119.calculator.MainActivity">
         android:backgroundTint="@color/colorPrimary"
         android:textColor="@color/colorAccent"
         android:id="@+id/b0"
+        android:onClick="buttonClick"
         />
     <Button
 
@@ -134,7 +143,8 @@ tools:context="com.example.manasa_pt1119.calculator.MainActivity">
         android:id="@+id/beq"
         android:text="="
         android:backgroundTint="@color/colorPrimary"
-        android:textColor="@color/colorAccent"/>
+        android:textColor="@color/colorAccent"
+        android:onClick="buttonClick"/>
 
 
 </GridLayout>
