@@ -31,8 +31,8 @@ public class CalcPresenter {
         double k = a/b;
         iTalkToView.publishResult(k);
     }
-    public void show(View v)
+    public void show()
     {
-        iTalkToView.updateDisplay(v);
+        iTalkToView.updateDisplay();
     }
 }

@@ -8,5 +8,5 @@ import android.view.View;
 
 public interface ITalkToView {
     void publishResult(double k);
-    void updateDisplay(View v);
+    void updateDisplay();
 }

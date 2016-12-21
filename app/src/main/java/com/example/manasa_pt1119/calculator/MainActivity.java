@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity implements ITalkToView,View.
     Double[] d;
     EditText editText;
     String ch;
-
+    View v;
 
     double x,y;
     int i;
@@ -79,93 +79,93 @@ public class MainActivity extends AppCompatActivity implements ITalkToView,View.
     public void onClick(View view) {
 
 
-
+        v=view;
         switch(view.getId())
         {
             case R.id.b0:
 
 
-                            calcPresenter.show(view);
+                            calcPresenter.show();
                              d[i++]=Double.parseDouble(b0.getText().toString());
 
                             break;
             case R.id.b1:
 
-                calcPresenter.show(view);
+                calcPresenter.show();
                 d[i++]=Double.parseDouble(b1.getText().toString());
 
 
                 break;
 
             case R.id.b2:
-                calcPresenter.show(view);
+                calcPresenter.show();
                 d[i++]=Double.parseDouble(b2.getText().toString());
 
 
                 break;
             case R.id.b3:
-                calcPresenter.show(view);
+                calcPresenter.show();
                 d[i++]=Double.parseDouble(b3.getText().toString());
 
 
                 break;
             case R.id.b4:
-                calcPresenter.show(view);
+                calcPresenter.show();
                 d[i++]=Double.parseDouble(b4.getText().toString());
 
 
                 break;
 
             case R.id.b5:
-                calcPresenter.show(view);
+                calcPresenter.show();
                 d[i++]=Double.parseDouble(b5.getText().toString());
 
 
                 break;
             case R.id.b6:
-                calcPresenter.show(view);
+                calcPresenter.show();
                 d[i++]=Double.parseDouble(b6.getText().toString());
 
 
                 break;
             case R.id.b7:
-                calcPresenter.show(view);
+                calcPresenter.show();
                 d[i++]=Double.parseDouble(b7.getText().toString());
 
 
                 break;
 
             case R.id.b8:
-                calcPresenter.show(view);
+                calcPresenter.show();
                 d[i++]=Double.parseDouble(b8.getText().toString());
 
 
                 break;
             case R.id.b9:
-                calcPresenter.show(view);
+                calcPresenter.show();
                 d[i++]=Double.parseDouble(b9.getText().toString());
 
 
                 break;
 
             case R.id.badd:
-                calcPresenter.show(view);
+                calcPresenter.show();
                                 ch=badd.getText().toString();
 
                 break;
 
             case R.id.bsub:
-                calcPresenter.show(view);
+                calcPresenter.show();
                                 ch=bsub.getText().toString();
 
 
                 break;
             case R.id.bmul:
-                calcPresenter.show(view);
+                calcPresenter.show();
                                 ch=bmul.getText().toString();
                                 break;
             case R.id.bdiv:
-                calcPresenter.show(view);
+                calcPresenter.show();
                                     ch=bdiv.getText().toString();
                 break;
 
@@ -204,7 +204,7 @@ public class MainActivity extends AppCompatActivity implements ITalkToView,View.
 
 
     @Override
-    public void updateDisplay(View v) {
+    public void updateDisplay() {
 
 
         editText.setText(editText.getText().toString()+ ((Button)v).getText().toString() );
